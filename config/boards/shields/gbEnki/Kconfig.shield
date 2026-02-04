@@ -6,3 +6,10 @@ config SHIELD_GBENKI_LEFT
 
 config SHIELD_GBENKI_RIGHT
     def_bool $(shields_list_contains,gbEnki_right)
+
+# Enable mouse support
+config ZMK_MOUSE
+    default y
+
+config ZMK_POINTING
+    default y
