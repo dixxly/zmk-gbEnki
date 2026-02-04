@@ -96,10 +96,10 @@
             //                          | ___ | ___  | ADJ  |            | ADJ  | ___  | ___ |
 
             bindings = <
-&kp LWIN   &none  &mkp MB4  &mkp MB5        &none     &kp ESC      &none       &kp HOME        &kp UP_ARROW    &kp PG_UP  &none  &kp RWIN
-&kp LCTRL  &none  &mkp MB2  &kp KP_NUMLOCK  &mkp MB1  &none        &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &kp RALT
-&kp LALT   &none  &none     &none           &none     &none        &kp C_MENU  &kp END         &grtsgn         &kp PG_DN  &none  &kp RALT
-                            &trans          &trans    &lt 4 RET    &lt 4 ESC   &trans          &trans
+&kp LWIN   &none      &mkp MB4  &mkp MB5        &none     &kp ESC      &none       &kp HOME        &kp UP_ARROW    &kp PG_UP  &none  &kp RWIN
+&kp LCTRL  &mkp RCLK  &mkp MB2  &kp KP_NUMLOCK  &mkp MB1  &none        &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &kp RALT
+&kp LALT   &none      &none     &none           &none     &none        &kp C_MENU  &kp END         &grtsgn         &kp PG_DN  &none  &kp RALT
+                                &trans          &trans    &lt 4 RET    &lt 4 ESC   &trans          &trans
             >;
         };
 
