@@ -81,10 +81,10 @@
             //                      | ADJ | ___ | ___ |    | ___ | ___ | ADJ |
 
             bindings = <
-&mt LWIN CAPS    &kp KP_MULTIPLY  &kp N7  &kp N8     &kp N9  &kp PLUS      &none                 &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT         &mt RWIN F1
-&mt LCTRL K_APP  &kp KP_SLASH     &kp N4  &kp N5     &kp N6  &kp MINUS     &kp NON_US_BACKSLASH  &kp DOLLAR       &kp EQUAL             &kp UNDERSCORE         &none               &mt RALT F2
-&mt LALT EQUAL   &kp N0           &kp N1  &kp N2     &kp N3  &kp KP_DOT    &kp CARET             &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp LA(LEFT_SHIFT)  &mt RALT F3
-                                          &lt 4 TAB  &trans  &trans        &trans                &trans           &lt 4 DEL
+&kp LWIN      &kp KP_MULTIPLY  &kp N7  &kp N8     &kp N9  &kp PLUS      &none                 &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT         &kp LEFT_WIN
+&kp LEFT_ALT  &kp KP_SLASH     &kp N4  &kp N5     &kp N6  &kp MINUS     &kp NON_US_BACKSLASH  &kp DOLLAR       &kp EQUAL             &kp UNDERSCORE         &none               &kp LEFT_ALT
+&kp LCTRL     &kp N0           &kp N1  &kp N2     &kp N3  &kp KP_DOT    &kp CARET             &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp LA(LEFT_SHIFT)  &kp LCTRL
+                                       &lt 4 TAB  &trans  &trans        &trans                &trans           &lt 4 DEL
             >;
         };
 
@@ -96,10 +96,10 @@
             //                          | ___ | ___  | ADJ  |            | ADJ  | ___  | ___ |
 
             bindings = <
-&kp LWIN   &none      &mkp MB4  &mkp MB5        &none     &kp ESC      &none       &kp HOME        &kp UP_ARROW    &kp PG_UP  &none               &kp RWIN
-&kp LCTRL  &mkp RCLK  &mkp MB2  &kp KP_NUMLOCK  &mkp MB1  &none        &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none               &kp RALT
-&kp LALT   &none      &none     &none           &none     &none        &kp C_MENU  &kp END         &grtsgn         &kp PG_DN  &kp LA(LEFT_SHIFT)  &kp RALT
-                                &trans          &trans    &lt 4 RET    &lt 4 ESC   &trans          &trans
+&kp LWIN      &none      &mkp MB4  &mkp MB5        &none     &kp ESC      &none       &kp HOME        &kp UP_ARROW    &kp PG_UP  &none               &kp RWIN
+&kp LEFT_ALT  &mkp RCLK  &mkp MB2  &kp KP_NUMLOCK  &mkp MB1  &none        &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none               &kp LEFT_ALT
+&kp LCTRL     &none      &none     &none           &none     &none        &kp C_MENU  &kp END         &grtsgn         &kp PG_DN  &kp LA(LEFT_SHIFT)  &kp LCTRL
+                                   &trans          &trans    &lt 4 RET    &lt 4 ESC   &trans          &trans
             >;
         };
 
@@ -111,10 +111,10 @@
             //                   |     |     |     |   |     |     |     |
 
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &none     &none   &none  &none   &none  &none               &none
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &none     &none   &none  &none   &none  &none               &none
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &none     &none   &none  &none   &none  &kp LA(LEFT_SHIFT)  &trans
-                         &trans   &none    &trans    &trans  &none  &trans
+&kp LEFT_WIN  &kp F1  &kp F2   &kp F3   &kp F4   &none     &none       &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &none               &kp LEFT_WIN
+&kp LEFT_ALT  &kp F5  &kp F6   &kp F7   &kp F8   &none     &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none               &kp LEFT_ALT
+&kp LCTRL     &kp F9  &kp F10  &kp F11  &kp F12  &none     &kp C_MENU  &kp END         &none           &kp PAGE_DOWN    &kp LA(LEFT_SHIFT)  &kp LCTRL
+                               &trans   &none    &trans    &trans      &none           &trans
             >;
         };
 
